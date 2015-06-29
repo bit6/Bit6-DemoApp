@@ -11,11 +11,11 @@
 
     <engines>
         <engine name="cordova-ios" version=">=3.0.0" />
-        <engine name="cordova-android" version="&lt;4.0.0" />
+        <engine name="cordova-android" version=">=3.0.0" />
     </engines>
 
     <dependency id="com.phonegap.plugins.PushPlugin" url="https://github.com/Telerik-Verified-Plugins/PushNotification" />
-    <dependency id="cordova-plugin-whitelist"  />
+    <dependency id="cordova-plugin-whitelist" url="https://github.com/apache/cordova-plugin-whitelist" />
 
     <js-module src="www/phonertc.js" name="PhoneRTC">
     </js-module>
