@@ -36,6 +36,7 @@
   ],
   "CorePlugins": [
     "com.bit6.sdk@0.9.6",
+    "com.phonegap.plugins.PushPlugin",
     "cordova-plugin-device",
     "cordova-plugin-dialogs",
     "cordova-plugin-network-information",
